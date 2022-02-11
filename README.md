@@ -19,7 +19,7 @@ Nên cài hệ điều hành Ubuntu Server 20.04 và cấu hình như sau:
 |System|Storage|Network|
 |------|-------|-------|
 |<img src="/src/picture_system_motherboard.png" width="250">|<img src="/src/picture_storage01.png" width="250">|<img src="/src/picture_network01.png" width="250">|
-|<img src="/src/src/picture_system_processor.png" width="250">|<img src="/src/picture_storage02.png" width="250">|<img src="/src/picture_network02.png" width="250">|
+|<img src="/src/picture_system_processor.png" width="250">|<img src="/src/picture_storage02.png" width="250">|<img src="/src/picture_network02.png" width="250">|
 |-----|-----|<img src="/src/picture_network03.png" width="250">|
 
 <img src="/src/picture_information.png" width="250">
