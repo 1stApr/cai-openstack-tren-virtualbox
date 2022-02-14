@@ -158,7 +158,7 @@ Kiểm tra cấu hình multinode có đúng hay không
 ansible -i multinode all -m ping
 ```
 
-<img src="/src/picture_ping.png" width="250">
+<img src="/src/picture_ping.png" width="900">
 
 Chạy trình tạo mật khẩu ngẫu nhiên
 ```
@@ -213,28 +213,28 @@ cat /etc/kolla/globals.yml | egrep -v '^#|^$'
 ```
 kolla-ansible -i multinode bootstrap-servers
 ```
-<img src="/src/picture_bootstrap.png" width="250">
+<img src="/src/picture_bootstrap.png" width="900">
 
 ## 3.2: Thực hiện kiểm tra trước khi triển khai cho các máy chủ:
 
 ```
 kolla-ansible -i multinode prechecks
 ```
-<img src="/src/picture_prechecks.png" width="250">
+<img src="/src/picture_prechecks.png" width="900">
 
 ## 3.3 Tải về các Docker image:
 
 ```
 kolla-ansible -i multinode pull
 ```
-<img src="/src/picture_pull.png" width="250">
+<img src="/src/picture_pull.png" width="900">
 
 ## 3.4 Cài đặt các dịch vụ
 
 ```
 kolla-ansible -i multinode deploy
 ```
-<img src="/src/picture_deploy.png" width="250">
+<img src="/src/picture_deploy.png" width="900">
 
 --------------------
 
@@ -318,5 +318,5 @@ grep "keystone_admin" /etc/kolla/passwords.yml
 
 ### 4.6 Truy cập Dashboard
 
-<img src="/src/picture_dashboard.png" width="250">
+<img src="/src/picture_dashboard.png" width="900">
 
