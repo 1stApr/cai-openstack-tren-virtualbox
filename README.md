@@ -315,3 +315,8 @@ glance image-create --name "cirros" \
 ```
 grep "keystone_admin" /etc/kolla/passwords.yml
 ```
+
+### 4.6 Truy cập Dashboard
+
+<img src="/src/picture_dashboard.png" width="250">
+
