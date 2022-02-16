@@ -1,6 +1,6 @@
 # Cài đặt Openstack Với Kolla-Ansible
 - Tài liệu này hướng dẫn triển khai cài đặt Openstack trên các máy chủ Ubuntu Server 20.04 LTS
-- Ví dụ trong tài liệu này được thực hiện trên máy ảo Ubuntu Server 20.04 (RAM: 8GB, Processor: 4CPU, Storage: 2x50GB)
+- Ví dụ trong tài liệu này được thực hiện trên máy ảo Ubuntu Server 20.04 (RAM: 8GB, Processor: 4CPU, Storage: 2x50GB, IP: 192.168.48.4)
 
 # Tài liệu tham khảo
 
@@ -310,13 +310,15 @@ glance image-create --name "cirros" \
   --visibility=public
 ```
 
+### 4.6 Truy cập Dashboard
+
 **Lấy mật khẩu truy cập Horizon Dashboard**
 
 ```
 grep "keystone_admin" /etc/kolla/passwords.yml
 ```
 
-### 4.6 Truy cập Dashboard
-
 <img src="/src/picture_dashboard.png" width="900">
+
+<img src="/src/picture_dashboard2.png" width="900">
 
